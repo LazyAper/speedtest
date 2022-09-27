@@ -114,6 +114,7 @@ benchinit() {
 	fi
 	
 	# check bzip2
+	
 	if  [ ! -e '/usr/bin/bzip2' ]; then
 	        echo " Installing bzip2 ..."
 	            if [ "${release}" == "centos" ]; then
